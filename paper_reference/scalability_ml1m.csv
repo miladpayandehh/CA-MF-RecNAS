@@ -1,0 +1,12 @@
+variable,value,search_time_gpu_hours,peak_memory_gb,final_hypervolume
+users,1000,3.1,4.2,0.641
+users,2000,6.0,5.8,0.672
+users,4000,11.4,8.4,0.691
+users,6040,17.0,11.7,0.703
+items,1000,4.8,4.6,0.682
+items,2000,8.2,6.5,0.694
+items,3706,17.0,11.7,0.703
+interactions_per_user,10,4.2,4.1,0.648
+interactions_per_user,20,7.8,6.0,0.672
+interactions_per_user,40,12.1,8.9,0.691
+interactions_per_user,95,17.0,11.7,0.703

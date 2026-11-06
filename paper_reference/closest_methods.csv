@@ -1,0 +1,7 @@
+method,ndcg_at_10,parameters_m,fewshot_k3_ndcg,sparsity_99_ndcg,search_cost_reported,search_cost_unit_as_table,catalog_coverage,notes
+IGDHRS,0.398,4.2,0.271,0.171,9.8,GPU-hours,0.244,Contextual/adapted
+FL-CNN-adapted,0.447,2.9,0.292,0.196,7.6,GPU-hours,0.268,Contextual/adapted
+AutoSR,0.449,3.0,0.296,0.199,7.2,GPU-hours,0.276,Contextual/adapted
+Automated-model-design,0.446,3.1,0.294,0.198,6.8,GPU-hours,0.271,Contextual/adapted
+Auto-RecSys,0.453,3.2,0.309,0.206,6.5,GPU-hours,0.303,Contextual/adapted
+CA-MF-RecNAS-3,0.458,2.6,0.318,0.214,0.32,GPU-hours_as_column_but_abstract_says_GPU-days,0.312,Unit inconsistency documented in reproducibility audit

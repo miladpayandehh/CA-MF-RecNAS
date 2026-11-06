@@ -1,0 +1,18 @@
+category,configuration,final_hypervolume,hv_per_gpu_hour,genotypic_diversity,retention_percent,cost_ratio
+fuzzy,Fixed pc=0.9 pm=0.02,0.641,,,,
+fuzzy,Fixed pc=0.7 pm=0.1,0.652,,,,
+fuzzy,Reference-point fuzzy,0.664,,,,
+fuzzy,Progress-diversity fuzzy,0.671,,,,
+operator,Random,0.612,0.244,0.41,,
+operator,Fixed best,0.638,0.266,0.43,,
+operator,Cost-blind LA,0.658,0.281,0.51,,
+operator,Fuzzy only,0.671,0.294,0.54,,
+operator,Cost-aware reward,0.703,0.328,0.62,,
+promotion,Calibrated ML-100K,,,,84,0.22
+promotion,Fixed top-K ML-100K,,,,66,0.22
+promotion,Calibrated ML-1M,,,,82,0.22
+promotion,Fixed top-K ML-1M,,,,63,0.22
+promotion,Calibrated Amazon-MT,,,,78,0.22
+promotion,Fixed top-K Amazon-MT,,,,61,0.22
+promotion,Calibrated Netflix,,,,80,0.22
+promotion,Fixed top-K Netflix,,,,64,0.22

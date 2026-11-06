@@ -1,0 +1,5 @@
+configuration,final_hypervolume,improvement_over_best_fixed_percent
+Fixed_pc_0.9_pm_0.02,0.641,
+Fixed_pc_0.7_pm_0.1,0.652,1.7
+Reference_point_fuzzy,0.664,3.6
+Progress_diversity_fuzzy,0.671,4.7

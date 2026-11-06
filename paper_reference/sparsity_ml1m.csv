@@ -1,0 +1,6 @@
+removed_percent,remaining_interactions,density,users_with_at_least_one_train_interaction,items_with_at_least_one_train_interaction
+0,575281,0.0257,6040,3706
+90,57528,0.0026,6040,3706
+95,28764,0.0013,5896,3512
+99,5753,0.00026,3412,1824
+99.5,2876,0.00013,1987,1102

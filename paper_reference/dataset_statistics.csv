@@ -1,0 +1,5 @@
+dataset,users,items,interactions,density,test_items_per_user
+MovieLens-100K,943,1682,82520,0.0521,1
+MovieLens-1M,6040,3706,575281,0.0257,1
+Amazon-Movies-and-TV,8765,12345,189432,0.0018,1
+Netflix-subset,10000,15000,482100,0.0032,1

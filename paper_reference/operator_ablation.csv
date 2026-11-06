@@ -1,0 +1,6 @@
+policy,final_hypervolume,hypervolume_per_gpu_hour,final_genotypic_diversity
+Random,0.612,0.244,0.41
+Fixed_best,0.638,0.266,0.43
+Cost_blind_LA,0.658,0.281,0.51
+Fuzzy_only,0.671,0.294,0.54
+Cost_aware_reward,0.703,0.328,0.62

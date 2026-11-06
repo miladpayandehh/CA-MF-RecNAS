@@ -1,0 +1,8 @@
+choice,frequency_percent,ndcg_ablation_effect_percent
+Depthwise separable convolution,71,-4.2
+ELU or SELU activation,68,-2.1
+GCN block on dense datasets,64,-3.1
+Attention block on sparse datasets,58,-2.7
+1 or 2 head layers,82,-0.9
+Head dropout 0.2 or 0.3,76,-0.6
+Repair triggered on mutations,3.1,
