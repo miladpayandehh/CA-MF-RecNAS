@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated CA-MF-RecNAS manuscript."
+title: "Cost-Aware Multi-Fidelity Neural Architecture Search for Recommender Systems with Fuzzy-Adaptive Control and Cost-Aware Operator Reward"
+authors:
+  - family-names: Payandeh
+    given-names: Milad
+  - family-names: Jameii
+    given-names: Seyed Mahdi
+  - family-names: Alizadeh
+    given-names: Mahya
+abstract: >-
+  Research implementation of cost-aware multi-fidelity neural architecture search
+  for recommender systems with fuzzy-adaptive control and cost-aware operator reward.
+version: 0.1.0
+license: MIT
