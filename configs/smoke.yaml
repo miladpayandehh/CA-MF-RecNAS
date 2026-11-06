@@ -1,0 +1,48 @@
+seed: 42
+device: cpu
+max_sequence_length: 20
+
+data:
+  min_user_interactions: 5
+  min_item_interactions: 5
+  positive_rating_threshold: 4.0
+  low_fidelity_fraction: 0.05
+
+training:
+  optimizer: sgd
+  learning_rate: 0.025
+  momentum: 0.9
+  weight_decay: 0.0003
+  batch_size: 64
+  embedding_dropout: 0.2
+  low_fidelity_epochs: 1
+  full_epochs: 1
+  max_sequence_length: 20
+  eval_batch_users: 16
+  item_chunk_size: 256
+  latency_warmup: 2
+  latency_repeats: 5
+
+search:
+  population_size: 8
+  generations: 2
+  max_blocks: 3
+  calibration_size: 6
+  promotion_budget: 2
+  learning_automata_rate: 0.1
+  reward_ema_beta: 0.3
+  crossover_probability_initial: 0.7
+  mutation_probability_initial: 0.1
+  min_crossover_probability: 0.4
+  max_crossover_probability: 0.95
+  min_mutation_probability: 0.005
+  max_mutation_probability: 0.30
+  ridge_alphas: [0.01, 0.1, 1.0]
+  promotion_z: 1.6448536269514722
+  epsilon: 1.0e-8
+  reference_point: [1.05, 1.05, 1.05]
+  parameter_reference: 1000000
+  latency_reference_seconds: 0.001
+  normalization_lower: [0.20, 0.0, 0.0]
+  normalization_upper: [0.60, 1.0, 1.0]
+  runs: 1
