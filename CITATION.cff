@@ -4,10 +4,8 @@ title: "Cost-Aware Multi-Fidelity Neural Architecture Search for Recommender Sys
 authors:
   - family-names: Payandeh
     given-names: Milad
-  - family-names: Jameii
-    given-names: Seyed Mahdi
-  - family-names: Alizadeh
-    given-names: Mahya
+  - family-names: Bahremand
+    given-names: Mahdi
 abstract: >-
   Research implementation of cost-aware multi-fidelity neural architecture search
   for recommender systems with fuzzy-adaptive control and cost-aware operator reward.
